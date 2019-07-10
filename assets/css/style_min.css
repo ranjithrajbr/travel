@@ -20814,6 +20814,14 @@ filtrable a {
 .tab-holder .list-inline li {
 	padding: 0
 }
+.img-umrah{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    max-width: 100%;
+    max-height: 100%;
+}
 
 .tab-holder .list-inline .active>a {
 	background-color: #fff
@@ -20826,7 +20834,7 @@ filtrable a {
 }
 
 .breadcrumb-bg {
-	background-image: url("../images/about/1.jpg");
+	/*background-image: url("../images/about/1.jpg");*/
 	background-repeat: no-repeat;
 	background-size: cover
 }
@@ -20837,7 +20845,7 @@ filtrable a {
 }
 
 .breadcrumb-bg.bg-4 {
-	background-image: url("../images/background/1920x600-4.jpg");
+	background-image: url("../images/umrah/main.jpg");
 	text-align: center
 }
 
