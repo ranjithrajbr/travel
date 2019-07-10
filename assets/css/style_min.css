@@ -16732,7 +16732,7 @@ textarea:focus:-ms-input-placeholder {
 
 .header-fix-wrap {
 	background-color: #fff;
-	padding: 30px 0
+	padding: 0px 0;
 }
 
 .top-bar {
@@ -17099,7 +17099,8 @@ textarea:focus:-ms-input-placeholder {
 
 .header-1 .logo {
 	float: left;
-	margin-top: 6px
+	margin-top: 6px;
+	margin-bottom: 6px;
 }
 
 .logo>a {
@@ -17290,7 +17291,8 @@ textarea:focus:-ms-input-placeholder {
 	display: inline-block;
 	vertical-align: middle;
 	position: relative;
-	width: 100%
+	width: 100%;
+	margin-top: 30px;
 }
 
 .primary-navbar>li .dropdown-menu>li a {
