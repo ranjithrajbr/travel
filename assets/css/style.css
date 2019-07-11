@@ -3500,9 +3500,10 @@ textarea:focus:-ms-input-placeholder {
 
 .main-banner-1 {
 	position: relative;
-	background-image: url(../images/background/1920x1080-2.jpg);
+	background-image: url(../images/background/1920x1080-2.jpg););
 	padding: 5% 0;
-	background-size: cover
+	background-size: cover;
+	height: 900px;
 }
 
 .main-banner-1 .item {
