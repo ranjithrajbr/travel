@@ -17112,7 +17112,7 @@ textarea:focus:-ms-input-placeholder {
 
 .logo>span {
 	display: inline-block;
-	color: #999;
+	color: #d8bd85;
 	text-transform: uppercase;
 	font-size: 11px
 }
@@ -17286,7 +17286,7 @@ textarea:focus:-ms-input-placeholder {
 
 .primary-navbar>li>a {
 	font-weight: 500;
-	font-size: 15px;
+	font-size: 17px;
 	padding: 15px;
 	display: inline-block;
 	vertical-align: middle;
@@ -18879,7 +18879,7 @@ textarea:focus:-ms-input-placeholder {
 }
 
 .agency .img {
-	float: left;
+	/* float: left; */
 	width: 65px
 }
 
