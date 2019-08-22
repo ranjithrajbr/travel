@@ -16094,7 +16094,7 @@ h6 {
 .theme-btn {
 	border: medium none;
 	border-radius: 3px;
-	color: #fff;
+	/* color: #fff; */
 	font-size: 13px;
 	font-weight: 600;
 	height: 50px;
@@ -16992,7 +16992,7 @@ textarea:focus:-ms-input-placeholder {
 }
 
 .social-icons-1>li a {
-	background-color: #a09078;
+	background-color: #333;
 	border: 1px solid #f2f1e6;
 	border-radius: 50%;
 	color: #f2f1e6;
@@ -19041,7 +19041,7 @@ textarea:focus:-ms-input-placeholder {
 	left: 0;
 	position: absolute;
 	right: 0;
-	top: -50px
+	top: -90px;
 }
 
 .newsletter .info {
@@ -22003,7 +22003,7 @@ ul.list-caret li:before,
 .filtrable a:hover:before,
 .filtrable .current a:before,
 .tab-holder .list-inline .active a::before {
-	background-color: #fcb100
+	background-color: #d8bd85
 }
 
 .thumbnails .thumbnail .caption.hovered {
@@ -22027,5 +22027,5 @@ ul.list-caret li:before,
 .slider-wrap .search-tabs .active .icon,
 .detail-tabs .list-inline>li:hover,
 .detail-tabs .list-inline>li.active {
-	border-color: #fcb100
+	border-color: #d8bd85
 }
