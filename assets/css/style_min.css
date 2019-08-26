@@ -20848,9 +20848,18 @@ filtrable a {
 }
 
 .breadcrumb-bg.bg-4 {
-	background-image: url("../images/umrah/main.jpg");
+	background-image: url("../images/home/madinah.jpg");
 	text-align: center
 }
+.breadcrumb-bg.bg-3 {
+	background-image: url("../images/home/makkah.jpg");
+	text-align: center
+}
+.breadcrumb-bg.bg-5 {
+	background-image: url("../images/home/contact.jpeg");
+	text-align: center
+}
+
 
 .site-breadcumb {
 	padding: 14% 0 11%
