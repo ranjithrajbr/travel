@@ -20859,6 +20859,10 @@ filtrable a {
 	background-image: url("../images/home/contact.jpeg");
 	text-align: center
 }
+.breadcrumb-bg.bg-6 {
+	background-image: url("../images/home/packages.jpg");
+	text-align: center
+}
 
 
 .site-breadcumb {
