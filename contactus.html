@@ -13,7 +13,6 @@
     <!--[if IE]>
             <meta http-equiv="X-UA-Compatible" content="IE=edge">
             <![endif]-->
-    
     <title>Travel Agency</title>
     <!-- Favicon -->
     <!-- <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-144-precomposed.png">
@@ -64,7 +63,6 @@
                                     <li class=" active">
                                         <a href="contactus.html" role="button" aria-haspopup="true">Contact us</a>
                                     </li>
-                                   
                                 </ul>
                             </nav>
                         </div>
@@ -95,7 +93,7 @@
                         <div class="col-md-4">
                             <img alt="" src="assets/images/logo/logo-foot.jpg">
                         </div>
-                        <div class="col-md-6" style="margin-bottom: 80px;">
+                        <div class="col-md-4" style="margin-bottom: 80px;">
                             <div class="img">
                                 <a href="https://goo.gl/maps/NtAt8yjSxjT7PSf2A"> <img alt="" src="assets/images/icons/icon-4.png" /></a>
                             </div>
@@ -108,14 +106,28 @@
                             </div>
                             <a href="https://goo.gl/maps/NtAt8yjSxjT7PSf2A"><button class="theme-btn btn-2"><i class="fa fa-location-arrow"></i> Get Direction </button> </a>
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-md-4">
+                            <form name="contact" method="POST" data-netlify="true">
+                                <p>
+                                    <label>Name:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    <input type="text" name="name" /></label>
+                                </p>
+                                <p>
+                                    <label>Email:&nbsp; &nbsp;&nbsp; &nbsp;  <input type="email" name="email" /></label>
+                                </p>
+                                <p>
+                                    <label>Message:&nbsp;  <textarea name="message"></textarea></label>
+                                </p>
+                                <p>
+                                    <button type="submit">Send</button>
+                                </p>
+                            </form>
                         </div>
                     </div>
                 </div>
             </section>
         </article>
         <!-- FOOTER -->
-         <footer class="page-footer theme-color-bg">
+        <footer class="page-footer theme-color-bg">
             <div class="container">
                 <div class="text-center ptb-50">
                     <ul class="list-items social-icons-1 mb-30">
@@ -143,8 +155,9 @@
                         &nbsp;&nbsp;&nbsp;&nbsp;Bangalore - 560051</h4>
                 </div>
                 <div class="row text-center black-color">
+                   
                     <h4>Made with <i class="fa fa-heart red-clr"></i> by NativeCreativ</h4>
-                </div>
+                    <a href="assets/pdf/privacy policy.pdf"><h5> Terms and Condition</h5></a>
             </div>
         </footer>
         <!-- FOOTER -->
